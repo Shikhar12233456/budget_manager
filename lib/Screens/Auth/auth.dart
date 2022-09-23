@@ -1,3 +1,4 @@
+import 'package:budget_manager/Screens/Auth/google_sign_in.dart';
 import 'package:budget_manager/widgets/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -66,7 +67,11 @@ class _authScreenState extends State<authScreen> {
                         size: const Size(20, 20),
                       ),
                     ),
-                    const Text('Sign in with Google')
+                    TextButton(
+                        onPressed: () {
+                          signUp(context);
+                        },
+                        child: const Text('Sign Up with google'))
                   ],
                 ),
               ),
