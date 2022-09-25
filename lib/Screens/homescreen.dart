@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class Homescreen extends StatefulWidget {
   const Homescreen({Key? key}) : super(key: key);
@@ -8,10 +10,23 @@ class Homescreen extends StatefulWidget {
 }
 
 class _HomescreenState extends State<Homescreen> {
+  User? user = FirebaseAuth.instance.currentUser;
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text("Hello Home Screen"),
+    return Scaffold(
+      appBar: AppBar(
+        leading: CircleAvatar(
+        ),
+      ),
+      body: SafeArea(
+        child: Card(
+          child: Column(
+            children: const[
+              Text("")
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

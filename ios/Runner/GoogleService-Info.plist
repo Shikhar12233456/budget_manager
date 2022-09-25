@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>848327280637-lgf2d99q2mihftlrbj7tcr0novm6u5dt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.848327280637-lgf2d99q2mihftlrbj7tcr0novm6u5dt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeQmNnZjiVwEZaey21Bxp1qTsTB68Gs4E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>848327280637</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.budgetManager</string>
+	<key>PROJECT_ID</key>
+	<string>budget-manager-18a24</string>
+	<key>STORAGE_BUCKET</key>
+	<string>budget-manager-18a24.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:848327280637:ios:cc1c71cfa3605bfe6b3b94</string>
+	<key>DATABASE_URL</key>
+	<string>https://budget-manager-18a24-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

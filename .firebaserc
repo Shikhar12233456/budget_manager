@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "budget-manager-18a24",
+    "staging": "budget-manager-18a24"
+  },
+  "targets": {},
+  "etags": {}
+}
