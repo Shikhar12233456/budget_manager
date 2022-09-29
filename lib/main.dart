@@ -1,8 +1,5 @@
-import 'package:budget_manager/Screens/Auth/auth.dart';
-import 'package:budget_manager/Screens/Auth/google_sign_in.dart';
 import 'package:budget_manager/Screens/homescreen.dart';
-import 'package:budget_manager/Screens/slidescreen.dart';
-import 'package:budget_manager/firebase_options.dart';
+import 'package:budget_manager/Firebase/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: authScreen(),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
     );
   }
 }

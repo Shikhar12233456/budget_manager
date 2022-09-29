@@ -22,7 +22,7 @@ Future<void> signUp(BuildContext context) async {
     User? user = result.user;
     if (result != null) {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Homescreen()));
+          context, MaterialPageRoute(builder: (context) => HomeScreen()));
     }
   }
 }
